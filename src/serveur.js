@@ -14,8 +14,6 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = 3000;
 const dataFilePath = path.resolve(__dirname, '../data/data.json');
-const Possession = './models/possessions/Possession'
-const Patrimoine = './models/Patrimoine.js';
 
 app.use(cors());
 app.use(json());
